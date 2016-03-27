@@ -61,7 +61,7 @@
 				<feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
 				<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
 			</filter>
-			<filter id="f1" x="0" y="0" width="200%" height="200%">
+			<filter id="f1" x=-20% y=-20% width="200%" height="200%">
 				<feOffset result="offOut" in="SourceAlpha" dx="2" dy="2" />
 				<feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
 				<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
@@ -75,8 +75,8 @@
 	<rect x="285" y="90" width="30" height="110" style="fill:blue;" filter="url(#f1)"/>
 	<polygon points="360,90 395,200 325,200" style="fill:lime;" filter="url(#f1)"/>
 	<polygon points="360,90 385,160 335,160" style="fill:lime;" filter="url(#f2)"/>
-	<polygon points="470,90 500,199 440,199" style="fill:lime;" filter="url(#f1)"/>
-	<polygon points="440,90 470,200 410,200" style="fill:lime;" filter="url(#f2)"/>
+	<polygon points="465,90 495,199 435,199" style="fill:lime;" filter="url(#f1)"/>
+	<polygon points="435,90 465,200 405,200" style="fill:lime;" filter="url(#f2)"/>
 	
 	
 </svg>
@@ -93,20 +93,20 @@
         <feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
         <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
       </filter>
-      <filter id="f1" x="0" y="0" width="200%" height="200%">
+      <filter id="f1" x=-20% y=-20% width="200%" height="200%">
         <feOffset result="offOut" in="SourceAlpha" dx="2" dy="2" />
         <feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
         <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
       </filter>
 
   </defs>
-  <polygon points="130,200 190,200 130,90" style="fill:lime;" filter="url(#f1)"/>
-  <circle cx="145" cy="45" r="45" padding style="fill:red" filter="url(#f1)"/>
-  <rect x="100" y="0" width="30" height="200" style="fill:blue;" filter="url(#f2)"/>
-  <rect x="205" y="90" width="30" height="110" style="fill:blue;" filter="url(#f1)"/>
-  <rect x="245" y="90" width="90" height="110" style="fill:blue;" filter="url(#f1)"/>
-  <polygon points="270,200 310,200 270,140" style="fill:lime;" filter="url(#f1)"/>
-  <polygon points="310,90 310,150 270,90" style="fill:lime;" filter="url(#f1)"/>
+  <polygon points="130,205 190,205 130,65" style="fill:lime;" filter="url(#f1)"/>
+  <circle cx="147" cy="55" r="47" padding style="fill:red" filter="url(#f1)"/>
+  <rect x="99" y="5" width="31" height="200" style="fill:blue;" filter="url(#f2)"/>
+  <rect x="205" y="95" width="30" height="110" style="fill:blue;" filter="url(#f1)"/>
+  <rect x="245" y="95" width="90" height="110" style="fill:blue;" filter="url(#f1)"/>
+  <polygon points="275,210 310,210 275,150" style="fill:lime;" filter="url(#f1)"/>
+  <polygon points="305,90 305,150 270,90" style="fill:lime;" filter="url(#f1)"/>
   <polygon points="380,90 415,200 345,200" style="fill:lime;" filter="url(#f1)"/>
   <polygon points="380,90 405,160 355,160" style="fill:lime;" filter="url(#f2)"/>
   
